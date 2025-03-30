@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Today</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="" defer></script> -->
+</head>
+<body>
+    <div class="weather-card">
+        <input type="text" id="location" placeholder="search location"><button id="btn">search</button>
+        <h2>Weather Today in <span id="location1"></span></h2>
+        <div class="temperature">
+            <p><span id="feels-like"></span></p>
+            <div class="sun-info">
+                <img class="img" src="sunrise.png" alt="Sunrise">
+                <span id="sunrise">06:16</span>
+                <img class="img" src="sunset-.png" alt="Sunset">
+                <span id="sunset">18:36</span>
+            </div>
+        </div>
+
+        <div class="weather-details">
+            <p><img class="img1" src="exclamation-mark_7500091.png" alt="Temp"> High/Low: <span id="high-low"></span></p>
+            <p><img class="img1" src="wind.png" alt="Wind"> Wind: <span id="wind"></span></p>
+            <p><img class="img1" src="humidity.png" alt="Humidity"> Humidity: <span id="humidity"></span></p>
+            <p><img class="img1" src="dew-point.png" alt="Dew Point"> Dew Point: <span id="dew-point"></span></p>
+            <p><img class="img1" src="resilience.png" alt="Pressure"> Pressure: <span id="pressure"></span></p>
+            <p><img class="img1" src="ultraviolet.png" alt="UV"> UV Index: <span id="uv-index"></span></p>
+            <p><img class="img1" src="visibility.png" alt="Visibility"> Visibility: <span id="visibility"></span></p>
+            <p><img class="img1" src="moon-phase-circular-weather-symbol.png" alt="Moon Phase"> Moon Phase: <span id="moon"></span></p>
+        </div>
+    </div>
+</body>
+<script src="weather.js"></script>
+</html>
