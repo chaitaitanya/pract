@@ -1,0 +1,69 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("skycloud.jpeg");
+    background-size: cover;
+}
+
+.weather-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    width: 50%;
+    max-width: 400px;
+    height: 70%;
+    background-color: rgb(55, 125, 196);
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.temperature {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sun-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.weather-details {
+    margin-top: 15px;
+    font-size: larger;
+}
+
+.weather-details p {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.weather-details img {
+    width: 20px;
+    height: 20px;
+}
+.img{
+   height: 50px;
+   width: 50px; 
+}
+.img1{
+    height: 80px;
+    width: 80px;
+    margin-left: 15px;
+}
